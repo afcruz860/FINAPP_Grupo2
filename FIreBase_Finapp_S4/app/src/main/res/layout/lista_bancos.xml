@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+
+    <TextView
+        android:id="@+id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Nombres:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxxxxx"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/lblNombres"/>
+
+
+
+    <TextView
+        android:id="@+id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Telefono:"
+        android:textStyle="bold"
+        android:layout_below="@id/lblNombres"/>
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3202584578"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/lblNombres"
+        android:layout_toRightOf="@id/lblTelefono"/>
+
+
+
+    <TextView
+        android:id="@+id/lblDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Direccion:"
+        android:textStyle="bold"
+        android:layout_below="@id/lblTelefono"/>
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calle 1 # 14-78"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/lblTelefono"
+        android:layout_toRightOf="@id/lblDireccion"/>
+
+
+
+    <TextView
+        android:id="@+id/lblHorario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Horario:"
+        android:textStyle="bold"
+        android:layout_below="@id/lblDireccion"/>
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6am a 9pm"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/lblDireccion"
+        android:layout_toRightOf="@id/lblHorario"/>
+
+
+
+    <TextView
+        android:id="@+id/lblFechaRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Fecha Reg:"
+        android:textStyle="bold"
+        android:layout_below="@id/lblHorario"/>
+    <TextView
+        android:id="@+id/fechaRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022-11-28 15:20:20"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/lblHorario"
+        android:layout_toRightOf="@id/lblFechaRegistro"/>
+
+
+</RelativeLayout>

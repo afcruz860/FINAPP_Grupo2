@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f15a24"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar Banco"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+
+        <EditText
+            android:id="@+id/inputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre..."
+            android:paddingTop="14dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/inputTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono..."
+            android:paddingTop="14dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/inputDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Direccion..."
+            android:paddingTop="14dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/inputHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horario..."
+            android:paddingTop="14dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnInsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar Banco"
+            android:paddingTop="10dp"
+            android:backgroundTint="#2E8CD5"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
